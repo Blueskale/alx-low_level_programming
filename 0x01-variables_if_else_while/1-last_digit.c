@@ -7,7 +7,7 @@
 /**
  * main - main block
  * Description: Print statements  based on the last digits of the random number
- * Returns: 0
+ * Returns: Always 0 (sucess)
  */
 int main(void)
 {
