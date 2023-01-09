@@ -32,10 +32,10 @@ int word_len(char *str)
 }
 
 /**
- * ount_words - Counts the number of words contained within a string.
+ * count_words - Counts the number of words contained within a string.
  * @str: The string to be searched.
  *
- *  Return: The number of words contained within str.
+ * Return: The number of words contained within str.
  */
 int count_words(char *str)
 {
@@ -58,7 +58,7 @@ int count_words(char *str)
 
 /**
  * strtow - Splits a string into words.
- * str: The string to be split.
+ * @str: The string to be split.
  *
  * Return: If str = NULL, str = "", or the function fails - NULL.
  * Otherwise - a pointer to an array of strings (words).
